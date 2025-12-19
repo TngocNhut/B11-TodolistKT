@@ -1,12 +1,12 @@
 ## Bai 11 - Todolist in Kotlin
 ## Trần Ngọc Nhất - 24162086
 
-### Yều cầu: Áp dụng ***MVVM*** vào app Todolist và chuyển sang ngôn ngữ **Kotlin**
+### Yều cầu: Áp dụng ***MVVM*** vào app Todolist dùng ngôn ngữ **Kotlin**
 > MVVM: Modle - View ↔ ViewModel bằng DataBinding / State
 > và thực hiện chuyển đổi App ToDoList bằng ngôn ngữ Kotlin có các chức năng: đăng ký tài khoản, đăng nhập qua mô hình MVVM. Dữ liệu công việc được luu trữ trong SQL Lite
 
 ### Idea triển khai:
-- Chuyển đổi Todolist thành ngôn ngữ Kotlin từ Bài 10
+- Chuyển đổi các chức năng Todolist phù hợp với yêu cầu từ Bài 10
 - Sử dụng Room database (cũng là SQLite nhưng hiệu quả hơn SQLiteOpenHelper mặc định)
 - Loại bỏ `textView.text = cursor.getString(...)` query trực tiếp vào SQLite khi còn dùng SQLiteOpenHelper, bây giờ sử dụng Model MVVM:
 > - Chia thành các bước riêng: 
